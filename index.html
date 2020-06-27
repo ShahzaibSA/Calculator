@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <form>
+            <input id="answer" class="display" type="text">
+            <div class="button">
+                <input class="btnNum" type="button" onclick=" getNumber('7')" value="7">
+                <input class="btnNum" type="button" onclick=" getNumber('8')" value="8">
+                <input class="btnNum" type="button" onclick=" getNumber('9')" value="9">
+                <input class="btnNum" type="button" onclick=" getNumber('/')" value="/"> <br>
+                <input class="btnNum" type="button" onclick=" getNumber('4')" value="4">
+                <input class="btnNum" type="button" onclick=" getNumber('5')" value="5">
+                <input class="btnNum" type="button" onclick=" getNumber('6')" value="6">
+                <input class="btnNum" type="button" onclick=" getNumber('*')" value="x"> <br>
+                <input class="btnNum" type="button" onclick=" getNumber('1')" value="1">
+                <input class="btnNum" type="button" onclick=" getNumber('2')" value="2">
+                <input class="btnNum" type="button" onclick=" getNumber('3')" value="3">
+                <input class="btnNum" type="button" onclick=" getNumber('-')" value="-"> <br>
+                <input class="btnNum" type="button" onclick=" getNumber('.')" value=".">
+                <input class="btnNum" type="button" onclick=" getNumber('0')" value="0">
+                <input class="btnNum" type="button" onclick=" getNumber('+')" value="+">
+                <input class="btnNum clear" type="button" onclick=" clearDisplay()" value="C">
+                <input class="btnNum equal" type="button" onclick=" getResult()" value="=">
+            </div>
+        </form>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
